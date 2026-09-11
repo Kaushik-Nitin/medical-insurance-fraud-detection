@@ -1,4 +1,4 @@
-# Medical Insurance Fraud Detection — Easy/Medium Version 2
+# Medical Insurance Fraud Detection
 
 A simplified fraud detection project, built to stay consistent with a
 description that says "applied machine learning techniques to identify
@@ -14,19 +14,7 @@ detector here is genuine unsupervised ML.
 | Features | 8 simple ones | Same minimal set as the first easy version |
 | Train/test split | Plain random split | A disclosed simplification — see below |
 
-## How this compares to the other two versions of this project
 
-| | Easy v1 (z-score) | **Easy v2 (this one)** | Advanced |
-|---|---|---|---|
-| Classifier | Logistic Regression | Logistic Regression | Random Forest |
-| Anomaly detection | Statistics rule (z-score) | **Isolation Forest (ML)** | Isolation Forest (ML) |
-| Split | Random | Random | Provider-grouped |
-| Features | 8 | 8 | 20+ |
-| ROC-AUC | 0.64 | 0.64 | 0.94 |
-
-This version sits between the other two: the classifier stays as simple as
-v1, but the anomaly detector is upgraded to real ML to match descriptions
-that specifically claim machine learning was used for anomaly detection.
 
 ## Project structure
 
