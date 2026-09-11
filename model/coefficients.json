@@ -1,0 +1,34 @@
+[
+  [
+    "ProviderAvgClaimAmt",
+    0.4630026724506587
+  ],
+  [
+    "IsInpatient",
+    -0.048638482194964056
+  ],
+  [
+    "DeductibleAmt",
+    0.030943730244699406
+  ],
+  [
+    "PatientAge",
+    0.015170907567777114
+  ],
+  [
+    "ClaimAmount",
+    0.011446588319927745
+  ],
+  [
+    "ClaimDurationDays",
+    0.0047534501102128365
+  ],
+  [
+    "ChronicConditionCount",
+    -0.0007476972459994739
+  ],
+  [
+    "NumDiagnosisCodes",
+    -0.00020936299157990862
+  ]
+]
