@@ -1,20 +1,5 @@
 # Medical Insurance Fraud Detection
 
-A simplified fraud detection project, built to stay consistent with a
-description that says "applied machine learning techniques to identify
-anomalous patterns" — unlike a pure-statistics version, the anomaly
-detector here is genuine unsupervised ML.
-
-## What this version uses
-
-| Task | Technique | Why this one |
-|---|---|---|
-| Classification | Logistic Regression | Fully interpretable — the whole model is 8 learned weights, easy to explain completely |
-| Anomaly detection | Isolation Forest (unsupervised ML) | Genuinely machine learning, not a manual rule — but still just one extra `.fit()` call to explain |
-| Features | 8 simple ones | Same minimal set as the first easy version |
-| Train/test split | Plain random split | A disclosed simplification — see below |
-
-
 
 ## Project structure
 
@@ -41,7 +26,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Known simplifications (disclose these, don't hide them)
+## Known simplifications 
 
 - **Random split, not grouped by provider** — the reported 0.64 ROC-AUC is
   likely a little optimistic since claims from the same provider can land
